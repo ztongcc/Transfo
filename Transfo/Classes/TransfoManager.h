@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 #import "TransfoRequest.h"
 #import "TransfoResponse.h"
 #import "TransfoProcessor.h"
