@@ -1,0 +1,6 @@
+framework module Transfo {
+  umbrella header "Transfo-umbrella.h"
+
+  export *
+  module * { export * }
+}
