@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Transfo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Transfo.'
+  s.version          = '1.0.0'
+  s.summary          = 'Transfo is a high level request util based on AFNetworking.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Transfo is a high level request util based on AFNetworking. It provides a High Level API for network request. It makes network requests easier'
 
   s.homepage         = 'https://github.com/ztongcc/Transfo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ztongcc' => 'zhitong.cheng@esenyun.com' }
+  s.author           = { 'ztongcc' => 'ztongcc@163.com' }
   s.source           = { :git => 'https://github.com/ztongcc/Transfo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Transfo/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Transfo' => ['Transfo/Assets/*.png']
-  # }
+  s.source_files = 'Transfo/Classes/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Transfo/Classes/*.h'
+  s.dependency 'AFNetworking', '~> 4.0.1'
 end

@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */; };
+		028F5344F744ADC1F3845A3F94379F2C /* TransfoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D59F67B21557A87B3E5EE7A6784D0C9B /* TransfoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */; };
-		064E46BDA07C5A5241326FC0A5417893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659CD0DB2266D1D619EB5454D91FE42B /* Foundation.framework */; };
+		0619FB42F81B16830863E5CF186215F2 /* Transfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D0A48265F15C96C3B4EDF75FDEFAB6 /* Transfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B0AF0DE2BD9E6FABC0D47C0DA60320 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1361C7D84DC86CD4078CBF674BE9D681 /* TransfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E419B83EBDC1F28CFF8AD89730DC57A7 /* TransfoResponse.m */; };
 		163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A82126BFE078FF36ECCB2509377D83C /* Transfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA8E17DFA756ECB81E1AC8336E3040 /* Transfo-dummy.m */; };
+		1C53534A44050E71EDFF5AC15060FDCB /* TransfoResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 21127B09B8EC0129C6209CA08452BB0B /* TransfoResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		204D9C67E03FC3D02D007CE413EC7228 /* Pods-Transfo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210F56EF8BF1E8DC89ADA72392DC4E2 /* Pods-Transfo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */; };
 		2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2662D392F3C2C50256581CE977397F32 /* TransfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DB655A5F641A9380862D4B8961FFE9 /* TransfoManager.m */; };
 		2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9C8613E3D05DC796E6070524CADD2D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */; };
-		31508951EA50C0284DDC2E1FF179661D /* TransfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BEC175CDF620F62290A50E7D8B1689 /* TransfoRequest.m */; };
+		34C31320427E096E804AF190D3E2F53E /* Transfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FA94B8AE98D6DE904C77A4CC1AC589 /* Transfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */; };
 		3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */; };
@@ -33,61 +34,61 @@
 		6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */; };
-		787F16E24DE8B0669B7532A451519FAC /* TransfoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 275DC109BD22626B6523935D8E79933C /* TransfoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E380B7C1E8B91C3BE7AB6A20C71D5FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659CD0DB2266D1D619EB5454D91FE42B /* Foundation.framework */; };
+		7F472155745B35056EB2629F350CBD41 /* TransfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E921D1F0D11F185E8A5FF4ED99AD7 /* TransfoUtil.m */; };
 		828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */; };
-		84DCABCDE74387DC9E2113117DC2CBE4 /* TransfoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEF9B028C55C09C6593D1E97DAAAE6E /* TransfoUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CB6C2F7291BF7785C87511402D2487B /* TransfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AC81F0ED2B600F7866DBA25A77973750 /* TransfoRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */; };
 		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92BAB8141DB7E1BA9BEDBD4D46FB0A58 /* TransfoProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 135A617672B330A3E82E43A977EA57E3 /* TransfoProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FAA9FA7805BC23BC26E3B760ECEDE5 /* TransfoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4449942ECD386885E2E7777D7997D0 /* TransfoUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */; };
-		96D21BE09533DA3FCE207A7EBC394591 /* Transfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3313F707EB21F7F3D32314603CE6D24D /* Transfo-dummy.m */; };
 		990CB585A79F203EBDE4F72DF538993A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659CD0DB2266D1D619EB5454D91FE42B /* Foundation.framework */; };
-		9AB19DD88E7EFEED82F608CB8F0FA52B /* TransfoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE30CDFDE545A0E9E3AFBC3F9655A9A /* TransfoProcessor.m */; };
+		9BAE93E0D0760E82904226AA4B7280A6 /* TransfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F17047B2D4FBB73CB586571809022 /* TransfoRequest.m */; };
 		9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */; };
 		9E4136D2C83473988A81C1AFDD0E6597 /* Pods-Transfo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB11563E00AEAEAD4AB3605AF2CF97 /* Pods-Transfo_Tests-dummy.m */; };
 		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */; };
 		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC6325508F3C3E9D0A45944E34349C9A /* Transfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76333C93971FCE3FAAFA60D2F89C6E23 /* Transfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B06E5C49D7B2062B2B02A0DBBD5C9203 /* TransfoResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D69448EF99F27944C6E53EB41677940 /* TransfoResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2FFABDA79D9553737C451B2680F9764 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBBD1AFA6C13D02481B51058453AE1D /* AFNetworking.framework */; };
 		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B612BD4EE4F3E96EDA4A2251F15EA64A /* AFImageDownloader.m */; };
-		B8E035DBA0826661BB419A4D7A0EFCDA /* TransfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32620B9820E870DA69D2FD97809DD0 /* TransfoUtil.m */; };
-		B8F1FC26745A3F0372E96911D99E79C5 /* TransfoProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 62028A15CE7A480B75A052D494C2D215 /* TransfoProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */; };
 		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE953E18194809C9D5E8EE9393CFD2A4 /* TransfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBC0475DC79B4DFE61AA1928CACE822 /* TransfoResponse.m */; };
 		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A27BA9D05C87E9F06622244AD86E3 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBBD1AFA6C13D02481B51058453AE1D /* AFNetworking.framework */; };
+		D9B31046582964D61D6CDCEC1578A628 /* TransfoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C3ABF05D5ABA85DAE059A1820168B /* TransfoProcessor.m */; };
 		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E91297763E15C6EE0BAC980592FCF430 /* TransfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01360A30A19EA3D434153802C15B0676 /* TransfoManager.m */; };
 		EA444DE45B430613C26A809E4BB2610C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659CD0DB2266D1D619EB5454D91FE42B /* Foundation.framework */; };
+		EED28BD58572508CD915025BE0EACD19 /* TransfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CECB0420D760F21E1B77F5610385A440 /* TransfoRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A33F2569D914F6F9560D19AEFE6379C7 /* PBXContainerItemProxy */ = {
+		469804A6FCAAB93060FAF7B5A5EDB1BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B476291F9BB4B5BD76C3B56928DB441A;
 			remoteInfo = "Pods-Transfo_Example";
 		};
-		CEBD715BB70EA1DF244D59BE37FEEC7E /* PBXContainerItemProxy */ = {
+		92F2A90C7C9C48B7A433CFC2511DC24C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		CFA50A4E82C8CC8FA273608A22082FEC /* PBXContainerItemProxy */ = {
+		B3375B9B9D9F747A8F8516DAC27F9312 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		E843831160B71BD56840D757A98CC2D0 /* PBXContainerItemProxy */ = {
+		FE4EE61E12B9505E4F20B765F2BCFAF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -98,45 +99,47 @@
 
 /* Begin PBXFileReference section */
 		00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		01360A30A19EA3D434153802C15B0676 /* TransfoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoManager.m; path = Transfo/Classes/TransfoManager.m; sourceTree = "<group>"; };
 		01D3978B306D70CC2BEE1BBBB0C87837 /* Pods-Transfo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Transfo_Example-dummy.m"; sourceTree = "<group>"; };
 		0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		0D114BAA7EB42D2B1B0FDF35B9C58969 /* Transfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Transfo.debug.xcconfig; sourceTree = "<group>"; };
+		0E699FE287D61014F8297F699AA24A71 /* Transfo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Transfo-Info.plist"; sourceTree = "<group>"; };
 		0F7D9AB0AB248FE795B3F17BFBF026F5 /* Pods-Transfo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transfo_Example-Info.plist"; sourceTree = "<group>"; };
 		10BCB329EB450156E90CA8AB8C153F08 /* Pods-Transfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		135A617672B330A3E82E43A977EA57E3 /* TransfoProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoProcessor.h; path = Transfo/Classes/TransfoProcessor.h; sourceTree = "<group>"; };
 		14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		1B32620B9820E870DA69D2FD97809DD0 /* TransfoUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoUtil.m; path = Transfo/Classes/TransfoUtil.m; sourceTree = "<group>"; };
+		187E921D1F0D11F185E8A5FF4ED99AD7 /* TransfoUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoUtil.m; path = Transfo/Classes/TransfoUtil.m; sourceTree = "<group>"; };
+		21127B09B8EC0129C6209CA08452BB0B /* TransfoResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoResponse.h; path = Transfo/Classes/TransfoResponse.h; sourceTree = "<group>"; };
 		23B9028AB56613CD6E05589E1D210DD2 /* Pods-Transfo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Transfo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		24008ED267522B8CE65453015DBF7706 /* Pods-Transfo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Transfo_Tests.modulemap"; sourceTree = "<group>"; };
 		26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		275DC109BD22626B6523935D8E79933C /* TransfoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoManager.h; path = Transfo/Classes/TransfoManager.h; sourceTree = "<group>"; };
 		2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		30BEC175CDF620F62290A50E7D8B1689 /* TransfoRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoRequest.m; path = Transfo/Classes/TransfoRequest.m; sourceTree = "<group>"; };
+		2F4449942ECD386885E2E7777D7997D0 /* TransfoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoUtil.h; path = Transfo/Classes/TransfoUtil.h; sourceTree = "<group>"; };
+		30392DE0313AA8FFD75DD838E17DC207 /* Transfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Transfo.modulemap; sourceTree = "<group>"; };
 		31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		3313F707EB21F7F3D32314603CE6D24D /* Transfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Transfo-dummy.m"; sourceTree = "<group>"; };
-		3450464D21FB793D6A1963935CA9AB45 /* Pods_Transfo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transfo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3450464D21FB793D6A1963935CA9AB45 /* Pods_Transfo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Transfo_Example.framework; path = "Pods-Transfo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37757F8A2AA55AC2FBBA82419EA59281 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		3DC07265902CE85454DA4C435CD47B68 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		4D69DA1BDED15D6632A13C654406C71C /* Transfo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Transfo-Info.plist"; sourceTree = "<group>"; };
 		4EBBD1AFA6C13D02481B51058453AE1D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0C3ABF05D5ABA85DAE059A1820168B /* TransfoProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoProcessor.m; path = Transfo/Classes/TransfoProcessor.m; sourceTree = "<group>"; };
 		50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		5210F56EF8BF1E8DC89ADA72392DC4E2 /* Pods-Transfo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Transfo_Example-umbrella.h"; sourceTree = "<group>"; };
 		536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		53DC5813D9B5486718EFD6115EB76871 /* Pods-Transfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5D69448EF99F27944C6E53EB41677940 /* TransfoResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoResponse.h; path = Transfo/Classes/TransfoResponse.h; sourceTree = "<group>"; };
-		62028A15CE7A480B75A052D494C2D215 /* TransfoProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoProcessor.h; path = Transfo/Classes/TransfoProcessor.h; sourceTree = "<group>"; };
+		56C63358CD11884A69B486737BC6F112 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		659CD0DB2266D1D619EB5454D91FE42B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6EE30CDFDE545A0E9E3AFBC3F9655A9A /* TransfoProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoProcessor.m; path = Transfo/Classes/TransfoProcessor.m; sourceTree = "<group>"; };
+		65BD8FDC83842D152323913A8C590173 /* Transfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Transfo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		76333C93971FCE3FAAFA60D2F89C6E23 /* Transfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transfo-umbrella.h"; sourceTree = "<group>"; };
+		7C181E0090482A6C93BDEAA6237C9DAF /* Transfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transfo-prefix.pch"; sourceTree = "<group>"; };
 		842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		84FA94B8AE98D6DE904C77A4CC1AC589 /* Transfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transfo-umbrella.h"; sourceTree = "<group>"; };
 		87FC3ABCE85337E173983A29B2F44EA5 /* Pods-Transfo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transfo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		89E909443A20B13103B8D2B89E899297 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		8B9E383A054E7E1C274AF007FD183F8D /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
@@ -145,39 +148,37 @@
 		8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		94A7710C4FBF5CB53A53BEC293E11DCD /* Pods-Transfo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transfo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9B08E2377772A0A71DA6165DFB19364A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9A9F17047B2D4FBB73CB586571809022 /* TransfoRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoRequest.m; path = Transfo/Classes/TransfoRequest.m; sourceTree = "<group>"; };
 		9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		9CD19E0E25398572005AD1FE /* Transfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transfo.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B0AF0DE2BD9E6FABC0D47C0DA60320 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		A5C671439834C010D4C02E2E8849E06F /* Transfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9DB655A5F641A9380862D4B8961FFE9 /* TransfoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoManager.m; path = Transfo/Classes/TransfoManager.m; sourceTree = "<group>"; };
-		AC81F0ED2B600F7866DBA25A77973750 /* TransfoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoRequest.h; path = Transfo/Classes/TransfoRequest.h; sourceTree = "<group>"; };
-		ACB6DC3ACA207EE80AE74DE5DC2E9722 /* Pods_Transfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transfo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C671439834C010D4C02E2E8849E06F /* Transfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Transfo.framework; path = Transfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB6DC3ACA207EE80AE74DE5DC2E9722 /* Pods_Transfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Transfo_Tests.framework; path = "Pods-Transfo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBC0475DC79B4DFE61AA1928CACE822 /* TransfoResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoResponse.m; path = Transfo/Classes/TransfoResponse.m; sourceTree = "<group>"; };
 		B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		B612BD4EE4F3E96EDA4A2251F15EA64A /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		BA353CD83C114B13B2AB5F06A8B7DCC5 /* Pods-Transfo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transfo_Tests-Info.plist"; sourceTree = "<group>"; };
 		BE524004FAD5AB0B56D05BD16E30F03E /* Pods-Transfo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Transfo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEAA8E17DFA756ECB81E1AC8336E3040 /* Transfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Transfo-dummy.m"; sourceTree = "<group>"; };
 		BF9C8613E3D05DC796E6070524CADD2D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		C12AD95F5C10EA4A8EDCC97CCAAC44D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		CBD5EFAB1003597DB3FFC9E41AF4AEA5 /* Transfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Transfo.modulemap; sourceTree = "<group>"; };
 		CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		CEDEF712C96491D6B7E9CC533DBC7B1B /* Transfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Transfo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CECB0420D760F21E1B77F5610385A440 /* TransfoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoRequest.h; path = Transfo/Classes/TransfoRequest.h; sourceTree = "<group>"; };
 		D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		D10EA63FE12D78D6877D87B82908E481 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4D0A48265F15C96C3B4EDF75FDEFAB6 /* Transfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Transfo.h; path = Transfo/Classes/Transfo.h; sourceTree = "<group>"; };
+		D59F67B21557A87B3E5EE7A6784D0C9B /* TransfoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoManager.h; path = Transfo/Classes/TransfoManager.h; sourceTree = "<group>"; };
 		D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		DEE3F63228ACEAE1CE20D0999561F538 /* Transfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transfo-prefix.pch"; sourceTree = "<group>"; };
+		DEBA52F0A011A47A0E5BBD75C40CF4DB /* Transfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Transfo.debug.xcconfig; sourceTree = "<group>"; };
 		E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		E36B38DF2A3DC6A9254634C4EB8DF0CB /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		E419B83EBDC1F28CFF8AD89730DC57A7 /* TransfoResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransfoResponse.m; path = Transfo/Classes/TransfoResponse.m; sourceTree = "<group>"; };
-		E6BE8C9059433F64985BBA198BEB642E /* Transfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Transfo.release.xcconfig; sourceTree = "<group>"; };
 		E9523134A2B6223966D6E585E50A58EE /* Pods-Transfo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Transfo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EE0D98C8C4C05EDC83E16FFD0E25ED00 /* Pods-Transfo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Transfo_Example.modulemap"; sourceTree = "<group>"; };
-		EFEF9B028C55C09C6593D1E97DAAAE6E /* TransfoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransfoUtil.h; path = Transfo/Classes/TransfoUtil.h; sourceTree = "<group>"; };
 		F9360A94E2C2BB8E614E52AC39E717F2 /* Pods-Transfo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transfo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB5372E73614611284A44BA8089AB468 /* Transfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Transfo.release.xcconfig; sourceTree = "<group>"; };
 		FBCB11563E00AEAEAD4AB3605AF2CF97 /* Pods-Transfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Transfo_Tests-dummy.m"; sourceTree = "<group>"; };
 		FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
@@ -209,12 +210,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A22F941183A45C33BD952B52DBDE984D /* Frameworks */ = {
+		B63CC3E0EE0CE2FEB4F0B80390D9420A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FFABDA79D9553737C451B2680F9764 /* AFNetworking.framework in Frameworks */,
-				064E46BDA07C5A5241326FC0A5417893 /* Foundation.framework in Frameworks */,
+				D91A27BA9D05C87E9F06622244AD86E3 /* AFNetworking.framework in Frameworks */,
+				7E380B7C1E8B91C3BE7AB6A20C71D5FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +229,27 @@
 				536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
+			sourceTree = "<group>";
+		};
+		09B96218B1B74D4F01F32AFF1ECF268A /* Transfo */ = {
+			isa = PBXGroup;
+			children = (
+				D4D0A48265F15C96C3B4EDF75FDEFAB6 /* Transfo.h */,
+				D59F67B21557A87B3E5EE7A6784D0C9B /* TransfoManager.h */,
+				01360A30A19EA3D434153802C15B0676 /* TransfoManager.m */,
+				135A617672B330A3E82E43A977EA57E3 /* TransfoProcessor.h */,
+				4F0C3ABF05D5ABA85DAE059A1820168B /* TransfoProcessor.m */,
+				CECB0420D760F21E1B77F5610385A440 /* TransfoRequest.h */,
+				9A9F17047B2D4FBB73CB586571809022 /* TransfoRequest.m */,
+				21127B09B8EC0129C6209CA08452BB0B /* TransfoResponse.h */,
+				ACBC0475DC79B4DFE61AA1928CACE822 /* TransfoResponse.m */,
+				2F4449942ECD386885E2E7777D7997D0 /* TransfoUtil.h */,
+				187E921D1F0D11F185E8A5FF4ED99AD7 /* TransfoUtil.m */,
+				2B856716BE6BDE3C048019A7FE8A98C3 /* Pod */,
+				327EC310F2232F0A574AF7C5DD05E0C3 /* Support Files */,
+			);
+			name = Transfo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1CD2E58BFA94F98B90F9942547BB7005 /* Support Files */ = {
@@ -261,6 +283,31 @@
 			path = "Target Support Files/Pods-Transfo_Tests";
 			sourceTree = "<group>";
 		};
+		2B856716BE6BDE3C048019A7FE8A98C3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				56C63358CD11884A69B486737BC6F112 /* LICENSE */,
+				D10EA63FE12D78D6877D87B82908E481 /* README.md */,
+				65BD8FDC83842D152323913A8C590173 /* Transfo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		327EC310F2232F0A574AF7C5DD05E0C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30392DE0313AA8FFD75DD838E17DC207 /* Transfo.modulemap */,
+				BEAA8E17DFA756ECB81E1AC8336E3040 /* Transfo-dummy.m */,
+				0E699FE287D61014F8297F699AA24A71 /* Transfo-Info.plist */,
+				7C181E0090482A6C93BDEAA6237C9DAF /* Transfo-prefix.pch */,
+				84FA94B8AE98D6DE904C77A4CC1AC589 /* Transfo-umbrella.h */,
+				DEBA52F0A011A47A0E5BBD75C40CF4DB /* Transfo.debug.xcconfig */,
+				FB5372E73614611284A44BA8089AB468 /* Transfo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Transfo";
+			sourceTree = "<group>";
+		};
 		503312E12B5C626CF5D33111CD32B09F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,31 +327,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		73C8461E65E68B176305DF8D7B6079CB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C12AD95F5C10EA4A8EDCC97CCAAC44D0 /* LICENSE */,
-				9B08E2377772A0A71DA6165DFB19364A /* README.md */,
-				CEDEF712C96491D6B7E9CC533DBC7B1B /* Transfo.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7A08954E232B2656FED5AF189F613D81 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CBD5EFAB1003597DB3FFC9E41AF4AEA5 /* Transfo.modulemap */,
-				3313F707EB21F7F3D32314603CE6D24D /* Transfo-dummy.m */,
-				4D69DA1BDED15D6632A13C654406C71C /* Transfo-Info.plist */,
-				DEE3F63228ACEAE1CE20D0999561F538 /* Transfo-prefix.pch */,
-				76333C93971FCE3FAAFA60D2F89C6E23 /* Transfo-umbrella.h */,
-				0D114BAA7EB42D2B1B0FDF35B9C58969 /* Transfo.debug.xcconfig */,
-				E6BE8C9059433F64985BBA198BEB642E /* Transfo.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Transfo";
-			sourceTree = "<group>";
-		};
 		7F9C13824D39A08118211E51F369F300 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,27 +334,6 @@
 				50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
-			sourceTree = "<group>";
-		};
-		95699EE7B3192D0648F6379B4D0FCFCC /* Transfo */ = {
-			isa = PBXGroup;
-			children = (
-				275DC109BD22626B6523935D8E79933C /* TransfoManager.h */,
-				A9DB655A5F641A9380862D4B8961FFE9 /* TransfoManager.m */,
-				62028A15CE7A480B75A052D494C2D215 /* TransfoProcessor.h */,
-				6EE30CDFDE545A0E9E3AFBC3F9655A9A /* TransfoProcessor.m */,
-				AC81F0ED2B600F7866DBA25A77973750 /* TransfoRequest.h */,
-				30BEC175CDF620F62290A50E7D8B1689 /* TransfoRequest.m */,
-				5D69448EF99F27944C6E53EB41677940 /* TransfoResponse.h */,
-				E419B83EBDC1F28CFF8AD89730DC57A7 /* TransfoResponse.m */,
-				EFEF9B028C55C09C6593D1E97DAAAE6E /* TransfoUtil.h */,
-				1B32620B9820E870DA69D2FD97809DD0 /* TransfoUtil.m */,
-				9CD19E0E25398572005AD1FE /* Transfo.h */,
-				73C8461E65E68B176305DF8D7B6079CB /* Pod */,
-				7A08954E232B2656FED5AF189F613D81 /* Support Files */,
-			);
-			name = Transfo;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		99D5CE518789123385F411168C77CE8E /* NSURLSession */ = {
@@ -345,6 +346,14 @@
 				087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		A302FAD441D51DDC96BC70C1D7524A06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09B96218B1B74D4F01F32AFF1ECF268A /* Transfo */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A8B6A39706FB3546FEF649C94CA8A96A /* Frameworks */ = {
@@ -411,7 +420,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EB87812CADAF64F5919E69B91424B20D /* Development Pods */,
+				A302FAD441D51DDC96BC70C1D7524A06 /* Development Pods */,
 				A8B6A39706FB3546FEF649C94CA8A96A /* Frameworks */,
 				B580EA7CF70EB35BD42257A17D958932 /* Pods */,
 				503312E12B5C626CF5D33111CD32B09F /* Products */,
@@ -439,14 +448,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EB87812CADAF64F5919E69B91424B20D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				95699EE7B3192D0648F6379B4D0FCFCC /* Transfo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		F7B0C907F31D1F1746138475CA9C1023 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,6 +459,7 @@
 				1CD2E58BFA94F98B90F9942547BB7005 /* Support Files */,
 				CC3001599D15ADC8E41FD8F3ABAFC81B /* UIKit */,
 			);
+			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -477,19 +479,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				204D9C67E03FC3D02D007CE413EC7228 /* Pods-Transfo_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A045DD7BBFF5136F7006DA0796273143 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC6325508F3C3E9D0A45944E34349C9A /* Transfo-umbrella.h in Headers */,
-				787F16E24DE8B0669B7532A451519FAC /* TransfoManager.h in Headers */,
-				B8F1FC26745A3F0372E96911D99E79C5 /* TransfoProcessor.h in Headers */,
-				8CB6C2F7291BF7785C87511402D2487B /* TransfoRequest.h in Headers */,
-				B06E5C49D7B2062B2B02A0DBBD5C9203 /* TransfoResponse.h in Headers */,
-				84DCABCDE74387DC9E2113117DC2CBE4 /* TransfoUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +508,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD0698EAA2D58EABAF59B0B2F97476E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C31320427E096E804AF190D3E2F53E /* Transfo-umbrella.h in Headers */,
+				0619FB42F81B16830863E5CF186215F2 /* Transfo.h in Headers */,
+				028F5344F744ADC1F3845A3F94379F2C /* TransfoManager.h in Headers */,
+				92BAB8141DB7E1BA9BEDBD4D46FB0A58 /* TransfoProcessor.h in Headers */,
+				EED28BD58572508CD915025BE0EACD19 /* TransfoRequest.h in Headers */,
+				1C53534A44050E71EDFF5AC15060FDCB /* TransfoResponse.h in Headers */,
+				93FAA9FA7805BC23BC26E3B760ECEDE5 /* TransfoUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -542,17 +545,17 @@
 		};
 		849334FF8B9CB03F389807F66E2E0805 /* Transfo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D72D9ACB85FD369EA0707D701AAA587 /* Build configuration list for PBXNativeTarget "Transfo" */;
+			buildConfigurationList = 295A674477806566FE960C456D7A4721 /* Build configuration list for PBXNativeTarget "Transfo" */;
 			buildPhases = (
-				A045DD7BBFF5136F7006DA0796273143 /* Headers */,
-				9848CC53B5BC1A8E2D9901FB4A23B00D /* Sources */,
-				A22F941183A45C33BD952B52DBDE984D /* Frameworks */,
-				26C720EB3EE676CF13FBAC030E151AA7 /* Resources */,
+				BD0698EAA2D58EABAF59B0B2F97476E6 /* Headers */,
+				3EB35DD1490CE06A1630CC79B210F051 /* Sources */,
+				B63CC3E0EE0CE2FEB4F0B80390D9420A /* Frameworks */,
+				9ED2AE9F3964ADCA85DB6DE2BC34024A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB1D82AD9511F7B319D10A43936BFBC3 /* PBXTargetDependency */,
+				E4F5FB028AEAA1219341D2DD57113942 /* PBXTargetDependency */,
 			);
 			name = Transfo;
 			productName = Transfo;
@@ -571,7 +574,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				909BA7D647A7913A581A86FD5E0EA7DB /* PBXTargetDependency */,
+				0F56267B562205E120A8BE874D03A637 /* PBXTargetDependency */,
 			);
 			name = "Pods-Transfo_Tests";
 			productName = "Pods-Transfo_Tests";
@@ -590,8 +593,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				A7B8EB5ADEF4E40C10FC5A8F28158100 /* PBXTargetDependency */,
-				0B730BD0E7CE0821E9A881DEB60FFC48 /* PBXTargetDependency */,
+				527B48D5266BF662AE14751E5636A482 /* PBXTargetDependency */,
+				9BE203F9F17398D3882A0170B9CFD27E /* PBXTargetDependency */,
 			);
 			name = "Pods-Transfo_Example";
 			productName = "Pods-Transfo_Example";
@@ -643,14 +646,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26C720EB3EE676CF13FBAC030E151AA7 /* Resources */ = {
+		5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */ = {
+		9ED2AE9F3964ADCA85DB6DE2BC34024A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -660,6 +663,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3EB35DD1490CE06A1630CC79B210F051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A82126BFE078FF36ECCB2509377D83C /* Transfo-dummy.m in Sources */,
+				E91297763E15C6EE0BAC980592FCF430 /* TransfoManager.m in Sources */,
+				D9B31046582964D61D6CDCEC1578A628 /* TransfoProcessor.m in Sources */,
+				9BAE93E0D0760E82904226AA4B7280A6 /* TransfoRequest.m in Sources */,
+				CE953E18194809C9D5E8EE9393CFD2A4 /* TransfoResponse.m in Sources */,
+				7F472155745B35056EB2629F350CBD41 /* TransfoUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C214374BFD92F55B2726A012205207B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -691,19 +707,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9848CC53B5BC1A8E2D9901FB4A23B00D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96D21BE09533DA3FCE207A7EBC394591 /* Transfo-dummy.m in Sources */,
-				2662D392F3C2C50256581CE977397F32 /* TransfoManager.m in Sources */,
-				9AB19DD88E7EFEED82F608CB8F0FA52B /* TransfoProcessor.m in Sources */,
-				31508951EA50C0284DDC2E1FF179661D /* TransfoRequest.m in Sources */,
-				1361C7D84DC86CD4078CBF674BE9D681 /* TransfoResponse.m in Sources */,
-				B8E035DBA0826661BB419A4D7A0EFCDA /* TransfoUtil.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE6214EC35FD73CC74F982205AA0B8DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -715,64 +718,33 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B730BD0E7CE0821E9A881DEB60FFC48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Transfo;
-			target = 849334FF8B9CB03F389807F66E2E0805 /* Transfo */;
-			targetProxy = E843831160B71BD56840D757A98CC2D0 /* PBXContainerItemProxy */;
-		};
-		909BA7D647A7913A581A86FD5E0EA7DB /* PBXTargetDependency */ = {
+		0F56267B562205E120A8BE874D03A637 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Transfo_Example";
 			target = B476291F9BB4B5BD76C3B56928DB441A /* Pods-Transfo_Example */;
-			targetProxy = A33F2569D914F6F9560D19AEFE6379C7 /* PBXContainerItemProxy */;
+			targetProxy = 469804A6FCAAB93060FAF7B5A5EDB1BE /* PBXContainerItemProxy */;
 		};
-		A7B8EB5ADEF4E40C10FC5A8F28158100 /* PBXTargetDependency */ = {
+		527B48D5266BF662AE14751E5636A482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = CFA50A4E82C8CC8FA273608A22082FEC /* PBXContainerItemProxy */;
+			targetProxy = 92F2A90C7C9C48B7A433CFC2511DC24C /* PBXContainerItemProxy */;
 		};
-		EB1D82AD9511F7B319D10A43936BFBC3 /* PBXTargetDependency */ = {
+		9BE203F9F17398D3882A0170B9CFD27E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Transfo;
+			target = 849334FF8B9CB03F389807F66E2E0805 /* Transfo */;
+			targetProxy = FE4EE61E12B9505E4F20B765F2BCFAF9 /* PBXContainerItemProxy */;
+		};
+		E4F5FB028AEAA1219341D2DD57113942 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = CEBD715BB70EA1DF244D59BE37FEEC7E /* PBXContainerItemProxy */;
+			targetProxy = B3375B9B9D9F747A8F8516DAC27F9312 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B590467D769A89025EBCBF561FD7867 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6BE8C9059433F64985BBA198BEB642E /* Transfo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Transfo/Transfo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Transfo/Transfo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Transfo/Transfo.modulemap";
-				PRODUCT_MODULE_NAME = Transfo;
-				PRODUCT_NAME = Transfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0C902209175D85304A5115B511928021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37757F8A2AA55AC2FBBA82419EA59281 /* AFNetworking.debug.xcconfig */;
@@ -834,6 +806,37 @@
 			};
 			name = Release;
 		};
+		2BA2D404F3F1C2EC162FBE234CF8A46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5372E73614611284A44BA8089AB468 /* Transfo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Transfo/Transfo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Transfo/Transfo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Transfo/Transfo.modulemap";
+				PRODUCT_MODULE_NAME = Transfo;
+				PRODUCT_NAME = Transfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		704801B1B88A9BBC85362C80AB0250D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94A7710C4FBF5CB53A53BEC293E11DCD /* Pods-Transfo_Example.release.xcconfig */;
@@ -866,36 +869,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		75EA502D70BD46CCB1ECE55A9EFE41A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D114BAA7EB42D2B1B0FDF35B9C58969 /* Transfo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Transfo/Transfo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Transfo/Transfo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Transfo/Transfo.modulemap";
-				PRODUCT_MODULE_NAME = Transfo;
-				PRODUCT_NAME = Transfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A7067DC04DA7A01CDB3A5706BFC00C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1048,7 +1021,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1119,6 +1093,36 @@
 			};
 			name = Debug;
 		};
+		F42F212E0A9192B363D97FCCD7E24306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEBA52F0A011A47A0E5BBD75C40CF4DB /* Transfo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Transfo/Transfo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Transfo/Transfo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Transfo/Transfo.modulemap";
+				PRODUCT_MODULE_NAME = Transfo;
+				PRODUCT_NAME = Transfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1131,11 +1135,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D72D9ACB85FD369EA0707D701AAA587 /* Build configuration list for PBXNativeTarget "Transfo" */ = {
+		295A674477806566FE960C456D7A4721 /* Build configuration list for PBXNativeTarget "Transfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75EA502D70BD46CCB1ECE55A9EFE41A4 /* Debug */,
-				0B590467D769A89025EBCBF561FD7867 /* Release */,
+				F42F212E0A9192B363D97FCCD7E24306 /* Debug */,
+				2BA2D404F3F1C2EC162FBE234CF8A46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

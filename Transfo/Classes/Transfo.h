@@ -8,5 +8,9 @@
 #ifndef Transfo_h
 #define Transfo_h
 
+#import "TransfoManager.h"
+#import "TransfoRequest.h"
+#import "TransfoResponse.h"
+
 
 #endif /* Transfo_h */

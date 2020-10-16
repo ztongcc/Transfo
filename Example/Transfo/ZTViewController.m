@@ -23,8 +23,8 @@
 }
 
 - (void)setup {
-    [TFNetworkConfig sharedConfig].baseUrl = @"https://gateway.nextxx.cn:9091/";
-    [TFNetworkConfig sharedConfig].debugLogEnabled = NO;
+    [ZTNetworkConfig sharedConfig].baseUrl = @"https://gateway.nextxx.cn:9091/";
+    [ZTNetworkConfig sharedConfig].debugLogEnabled = NO;
 }
 
 - (IBAction)login:(id)sender {
@@ -48,7 +48,6 @@
             [userDefault synchronize];
         }
     }];
-}
 }
 
 - (void)didReceiveMemoryWarning

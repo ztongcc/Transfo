@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Transfo.h"
 #import "TransfoManager.h"
 #import "TransfoProcessor.h"
 #import "TransfoRequest.h"
