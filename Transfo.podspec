@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Transfo'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Transfo is a high level request util based on AFNetworking.'
 
 # This description is used to generate tags and improve search results.
