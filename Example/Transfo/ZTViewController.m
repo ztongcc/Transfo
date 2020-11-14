@@ -22,14 +22,14 @@
 }
 
 - (void)setup {
-    [ZTNetworkConfig sharedConfig].baseUrl = @"https://gateway.nextxx.cn:9091/";
+    [ZTNetworkConfig sharedConfig].baseUrl = @"https://xxxx.xxxx.cn/";
     [ZTNetworkConfig sharedConfig].debugLogEnabled = NO;
 }
 
 - (IBAction)login:(id)sender {
     
-    NSDictionary *paramDic = @{@"username":@"13524164536",
-                               @"password":@"123321",
+    NSDictionary *paramDic = @{@"username":@"xxxxxx",
+                               @"password":@"xxxxx",
                                @"grant_type":@"password",
                                @"scope":@"app"};
 
@@ -40,11 +40,7 @@
     } complection:^(TransfoResponse * _Nonnull rs) {
         if (rs.status) {
             NSLog(@"%@", rs.responseObject);
-            NSUserDefaults * userDefault = [NSUserDefaults standardUserDefaults];
-            [userDefault setObject:rs.responseObject[@"access_token"] forKey:@"access_token"];
-            [userDefault setObject:rs.responseObject[@"refresh_token"] forKey:@"refresh_token"];
-
-            [userDefault synchronize];
+            
         }
     }];
 }

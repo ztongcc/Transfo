@@ -43,16 +43,16 @@ typedef void (^ _Nullable TFThenRequestHandlerBlock)(NSArray <TransfoResponse *>
 
 
 @interface TransfoRequest : NSObject
-
-@property (nonatomic, copy)NSString * _Nonnull api;
+// 自定义域名
+@property (nonatomic, copy, nullable)NSString * domin;
+// 接口地址
+@property (nonatomic, copy,  nonnull)NSString * api;
 // 被替换的占位参数
-@property (nonatomic, strong)id _Nullable pathParameter;
+@property (nonatomic, strong, nullable)id pathParameter;
 // 放在URL 路径后面
-@property (nonatomic, strong)id _Nullable queryParameter;
+@property (nonatomic, strong, nullable)id queryParameter;
 // 放在 HTTP body 里面
-@property (nonatomic, strong)id _Nullable bodyParameter;
-// 是否需要 Authorization 默认 为 YES
-@property (nonatomic, assign)BOOL requireAuthorization;
+@property (nonatomic, strong, nullable)id bodyParameter;
 
 @property (nonatomic, assign)TFRequestMethod HTTPMethod;
 
@@ -61,7 +61,7 @@ typedef void (^ _Nullable TFThenRequestHandlerBlock)(NSArray <TransfoResponse *>
 @property (nonatomic, assign)TFRequestSerializerType requestSerializerType;
 
 @property (nonatomic, assign)BOOL barrage;
-// 忽略请求返回的结果
+// 忽略请求返回的结果, 设置后导致 该请求 completionBlock 不执行
 @property (nonatomic, assign)BOOL ignore;
 // 别名
 @property (nonatomic, assign)NSInteger tag;
@@ -79,15 +79,15 @@ typedef void (^ _Nullable TFThenRequestHandlerBlock)(NSArray <TransfoResponse *>
 @property (nonatomic, strong, nullable) NSString *resumableDownloadPath;
 
 
-@property (nonatomic, copy)AFConstructingBlock _Nullable constructingBlock;
+@property (nonatomic, copy, nullable)AFConstructingBlock constructingBlock;
 
-@property (nonatomic, copy)AFURLSessionTaskProgressBlock _Nullable uploadProgressBlock;
-@property (nonatomic, copy)AFURLSessionTaskProgressBlock _Nullable downloadProgressBlock;
+@property (nonatomic, copy, nullable)AFURLSessionTaskProgressBlock uploadProgressBlock;
+@property (nonatomic, copy, nullable)AFURLSessionTaskProgressBlock downloadProgressBlock;
 
 
-@property (nonatomic, copy)TFRequestCustomHeaderFieldValueBlock _Nullable customHeaderFieldValueBlock;
+@property (nonatomic, copy, nullable)TFRequestCustomHeaderFieldValueBlock customHeaderFieldValueBlock;
 
-@property (nonatomic, copy)TFRequestCompletionBlock _Nullable completionBlock;
+@property (nonatomic, copy, nullable)TFRequestCompletionBlock completionBlock;
 
 + (TransfoRequest *)transfo:(TFRequestMethod)HTTPMethod;
 

@@ -219,7 +219,12 @@
     if ([_config.processor respondsToSelector:@selector(transfo:absoluteURL:)]) {
         URLString = [_config.processor transfo:self absoluteURL:transfo];
     }
-    URLString = [[NSURL URLWithString:URLString relativeToURL:self.sessionManager.baseURL] absoluteString];
+    NSURL * customDomin = [NSURL URLWithString:transfo.domin];
+    if (customDomin) {
+        URLString = [[NSURL URLWithString:URLString relativeToURL:customDomin] absoluteString];
+    }else {
+        URLString = [[NSURL URLWithString:URLString relativeToURL:self.sessionManager.baseURL] absoluteString];
+    }
 
     if (transfo.resumableDownloadPath) {
         return [self downloadTaskWithRequest:transfo requestSerializer:serializer URLString:URLString error:error];

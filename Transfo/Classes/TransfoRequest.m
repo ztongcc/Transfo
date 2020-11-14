@@ -37,7 +37,6 @@
 }
 
 - (void)setup {
-    _requireAuthorization = YES;
     _priority = NSURLSessionTaskPriorityDefault;
 }
 

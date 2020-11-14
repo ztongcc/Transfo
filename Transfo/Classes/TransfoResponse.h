@@ -19,9 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign)BOOL status;
 
-@property (nullable,    copy) NSDictionary<NSString *, NSString *> * HTTPHeaderFields;
-
 @property (nonatomic,   copy)id responseObject;
+
+@property (nullable,    copy) NSDictionary<NSString *, NSString *> * HTTPHeaderFields;
 
 @property (nonatomic, strong)NSError  * error;
 @property (nonatomic,   copy)NSString * errorMsg;

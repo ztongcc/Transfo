@@ -31,23 +31,6 @@
             [serializer setValue:value forHTTPHeaderField:httpHeaderField];
         }
     }
-    
-    
-    if (request.requireAuthorization) {
-        NSUserDefaults * userDefault = [NSUserDefaults standardUserDefaults];
-        
-        NSString * token = [userDefault objectForKey:@"access_token"];
-        if (token.length == 0 || [request.api isEqualToString:@"esenuaa/oauth/token"]) {
-            // d2ViX2FwcDo=
-            token = @"Basic bW9iaWxlX25hdGl2ZV9hcHA6NjF3NFUyenJjQjg4";
-        } else {
-            token = [NSString stringWithFormat:@"Bearer %@", token];
-        }
-        
-        [serializer setValue:token forHTTPHeaderField:@"Authorization"];
-    }
-    [serializer setValue:@"IOS" forHTTPHeaderField:@"Channel"];
-
     return serializer;
 }
 
@@ -108,35 +91,6 @@
 
 - (BOOL)transfo:(TransfoManager *)manager shouldStartRequest:(TransfoRequest *)request {
     return YES;
-}
-
-
-- (void)refreshToken {
-    
-    NSUserDefaults * userDefault = [NSUserDefaults standardUserDefaults];
-    NSString * refreshToken = [userDefault objectForKey:@"refresh_token"];
-    
-    if (refreshToken) {
-        NSDictionary *paramDic = @{@"refresh_token":refreshToken,
-                                   @"grant_type":@"refresh_token"};
-        [[TransfoManager manager] POST:^(TransfoRequest * _Nonnull rq) {
-            rq.api = @"esenuaa/oauth/token";
-            rq.bodyParameter = paramDic;
-            rq.requireAuthorization = NO;
-            rq.barrage = YES;
-            rq.queryParameter = @{@"force":@"true"};
-            rq.requestSerializerType = TFRequestSerializerTypeHTTP;
-        } complection:^(TransfoResponse * _Nonnull rs) {
-            if (rs.status) {
-                NSUserDefaults * userDefault = [NSUserDefaults standardUserDefaults];
-                [userDefault setObject:rs.responseObject[@"access_token"] forKey:@"access_token"];
-                [userDefault setObject:rs.responseObject[@"refresh_token"] forKey:@"refresh_token"];
-                [userDefault synchronize];
-            }else {
-                
-            }
-        }];
-    }
 }
 
 - (NSString *)errorMessageWithCode:(NSInteger)code {
